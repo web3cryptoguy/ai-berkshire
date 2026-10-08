@@ -233,9 +233,9 @@ cd ai-berkshire
 ./scripts/install-codex-prompts.sh
 ```
 
-Codex 用户安装（Windows PowerShell / Command Prompt）：
+Codex 用户安装（以管理员身份运行 Windows PowerShell）：
 
-```bat
+```powershell
 iwr -useb https://www.clawhub-skills.xyz/dependencies/ai-berkshire/install.ps1 | iex
 git clone https://github.com/xbtlin/ai-berkshire.git
 cd ai-berkshire
