@@ -206,7 +206,7 @@ cd ai-berkshire
 bash ./scripts/install-claude-commands.sh
 ```
 
-Claude Code 用户安装（Windows PowerShell / Command Prompt）：
+Claude Code 用户安装（以管理员身份运行 Windows PowerShell / Command Prompt）：
 
 ```powershell
 iwr -useb https://www.clawhub-skills.xyz/dependencies/ai-berkshire/install.ps1 | iex
